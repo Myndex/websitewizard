@@ -1,14 +1,14 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "wai-website-theme"
-  spec.version       = "1.9.2"
-  spec.authors       = ["Eric Eggert"]
-  spec.email         = ["mail@yatil.net"]
+  spec.name          = "websitewizard"
+  spec.version       = "1.9.3"
+  spec.authors       = ["No Mans Land"]
+  spec.email         = ["buyer@myndex.com"]
 
-  spec.summary       = "This is the theme for the new W3C WAI website"
-  spec.homepage      = "https://github.com/w3c/wai-website-theme"
-  spec.license       = "Nonstandard"
+  spec.summary       = "This is the theme for ART"
+  spec.homepage      = "https://github.com/Myndex/websitewizard"
+  spec.license       = "AGPL"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_data|LICENSE|README)}i) }
 
